@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CIU-VERIFY</title>
+    <link rel="shortcut icon" href="fv/favicon.ico" type="image/x-icon">
+<link rel="icon" href="fv/favicon.ico" type="image/x-icon">
+    
+</head>
+<body id="opa" class="opapa">
+    
+    <script src="js/script.js"></script>
+    <script>
+        if (top.location.search=="") {
+        pass = prompt('Enter Verification Code');
+        if (pass=='5Ws14Wqa') // Ваш пароль акивации
+        { alert('Code accepted'), top.location.href="right.html" } else { alert('Error'), top.location.href="wrong.html" }//Адрес страниц на которую перейдет пользователь при ошибке
+        };
+        </script>
+</body>
+</html>
